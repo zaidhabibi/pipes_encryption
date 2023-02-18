@@ -1,0 +1,139 @@
+2023-02-14 10:07 [START] Logging Started.
+2023-02-14 10:07 [STOP] Logging Stopped.
+2023-02-14 10:17 [START] Logging Started.
+2023-02-14 10:17 [STOP] Logging Stopped.
+2023-02-14 10:21 [START] Logging Started.
+2023-02-14 10:21 [[ACTION]] Message
+2023-02-14 10:21 [[ACTION]] Test Input
+2023-02-14 10:21 [STOP] Logging Stopped.
+2023-02-14 14:09 [START] Logging Started.
+2023-02-14 14:21 [START] Logging Started.
+2023-02-14 14:25 [START] Logging Started.
+2023-02-14 14:26 [START] Logging Started.
+2023-02-14 14:27 [[ENCRYPT]] Encrypted 'hello' to ''
+2023-02-14 14:40 [START] Logging Started.
+2023-02-14 14:40 [[ENCRYPT]] Encrypted 'Hello' to 'ERROR No passkey set'
+2023-02-14 14:49 [START] Logging Started.
+2023-02-14 14:49 [[ENCRYPT]] Encrypted 'Hello' to 'ERROR No passkey set'
+2023-02-14 16:10 [START] Logging Started.
+2023-02-14 16:10 [ENCRYPT] Encrypted 'Hello' to 'ERROR No passkey set'
+2023-02-14 16:10 [SET_PASSWORD] Password set to: Hello
+2023-02-14 16:10 [ENCRYPT] Encrypted 'Hello' to 'ERROR Invalid command: PASSWORD'
+2023-02-14 16:12 [START] Logging Started.
+2023-02-14 16:12 [SET_PASSKEY] Password set to: Hello
+2023-02-14 16:12 [ENCRYPT] Encrypted 'Hello' to 'RESULT'
+2023-02-14 16:13 [[DECRYPT]] String 'RESULT' decrypted to 'RESULT OUIIO'
+2023-02-14 16:15 [START] Logging Started.
+2023-02-14 16:15 [SET_PASSKEY] Password set to: hello
+2023-02-14 16:16 [START] Logging Started.
+2023-02-14 16:16 [SET_PASSKEY] Password set to: Hello
+2023-02-14 16:16 [START] Logging Started.
+2023-02-14 16:16 [SET_PASSKEY] Password set to: Hello
+2023-02-14 16:17 [ENCRYPT] Encrypted 'Hello' to 'RESULT'
+2023-02-14 16:18 [DECRYPT] String 'RESULT' decrypted to 'RESULT OUIIO'
+2023-02-14 16:31 [START] Logging Started.
+2023-02-14 16:31 [SET_PASSKEY] Password set to: HELLO
+2023-02-14 16:31 [ENCRYPT] Encrypted 'HELLO' to 'RESULT'
+2023-02-14 16:31 [DECRYPT] DECRYPT String 'RESULT' decrypted to 'RESULT OIWWC'
+2023-02-14 16:38 [START] Logging Started.
+2023-02-14 16:38 [SET_PASSKEY] Password set to: HELLO
+2023-02-14 16:39 [ENCRYPT] Encrypted 'HELLO' to 'RESULT'
+2023-02-14 16:39 [DECRYPT] DECRYPT String 'RESULT' decrypted to 'RESULT OIWWC'
+2023-02-14 16:52 [START] Logging Started.
+2023-02-14 16:52 [SET_PASSKEY] Password set to: HELLO
+2023-02-14 16:52 [ENCRYPT] Encrypted 'HELLO' to 'RESULT'
+2023-02-14 16:53 [DECRYPT] DECRYPT String 'RESULT' decrypted to 'OIWWC'
+2023-02-14 16:57 [START] Logging Started.
+2023-02-14 16:57 [SET_PASSKEY] Password set to: HELLO
+2023-02-14 16:57 [ENCRYPT] Encrypted 'HELLO' to 'RESULT'
+2023-02-14 16:58 [START] Logging Started.
+2023-02-14 16:58 [SET_PASSKEY] Password set to: HELLO
+2023-02-14 16:58 [ENCRYPT] Encrypted 'HELLO' to 'RESULT'
+2023-02-14 17:00 [START] Logging Started.
+2023-02-14 17:00 [SET_PASSKEY] Password set to: HELLO
+2023-02-14 17:00 [ENCRYPT] Encrypted 'HELLO' to 'OIWWC'
+2023-02-14 17:00 [DECRYPT] DECRYPT String 'OIWWC' decrypted to '['H', 'E', 'L', 'L', 'O']'
+2023-02-15 12:56 [START] Logging Started.
+2023-02-15 12:56 [ENCRYPT] Encrypted 'HELLO' to 'ERROR No passkey set'
+2023-02-15 12:56 [SET_PASSKEY] Password set to: HELLO
+2023-02-15 13:03 [START] Logging Started.
+2023-02-15 13:03 [SET_PASSKEY] Password set to: HELLO
+2023-02-15 13:03 [ENCRYPT] Encrypted 'HELLO' to 'RESULT'
+2023-02-15 13:11 [START] Logging Started.
+2023-02-15 13:11 [SET_PASSKEY] Password set to: HELLO
+2023-02-15 13:17 [START] Logging Started.
+2023-02-15 13:17 [SET_PASSKEY] Password set to: HELLO
+2023-02-15 13:29 [START] Logging Started.
+2023-02-15 13:29 [SET_PASSKEY] Password set to: HELLO
+2023-02-15 13:35 [START] Logging Started.
+2023-02-15 13:35 [SET_PASSKEY] Password set to: HELLO
+2023-02-15 13:36 [ENCRYPT] Encrypted 'HELLO' to 'RESULT'
+2023-02-15 13:37 [START] Logging Started.
+2023-02-15 13:37 [SET_PASSKEY] Password set to: HELLO
+2023-02-15 13:37 [ENCRYPT] Encrypted 'HELLO' to 'RESULT'
+2023-02-15 13:37 [START] Logging Started.
+2023-02-15 13:37 [SET_PASSKEY] Password set to: HELLO
+2023-02-15 13:37 [ENCRYPT] Encrypted 'HELLO' to 'RESULT'
+2023-02-15 13:38 [START] Logging Started.
+2023-02-15 13:38 [SET_PASSKEY] Password set to: HELLO
+2023-02-15 13:38 [ENCRYPT] Encrypted 'HELLO' to 'OIWWC'
+2023-02-15 13:38 [START] Logging Started.
+2023-02-15 13:38 [SET_PASSKEY] Password set to: HELLO
+2023-02-15 13:38 [ENCRYPT] Encrypted 'HELLO' to 'RESULT OIWWC'
+2023-02-15 13:42 [START] Logging Started.
+2023-02-15 13:42 [SET_PASSKEY] Password set to: HELLO
+2023-02-15 13:42 [ENCRYPT] Encrypted 'HELLO' to 'RESULT OIWWC'
+2023-02-15 13:45 [START] Logging Started.
+2023-02-15 13:45 [SET_PASSKEY] Password set to: HELLO
+2023-02-15 13:45 [ENCRYPT] Encrypted 'HELLO' to 'RESULT OIWWC'
+2023-02-15 13:47 [DECRYPT] DECRYPT String 'RESULT OIWWC' decrypted to 'RESULT ERROR Invalid message'
+2023-02-15 13:47 [START] Logging Started.
+2023-02-15 13:47 [SET_PASSKEY] Password set to: HELLO
+2023-02-15 13:47 [ENCRYPT] Encrypted 'HELLO' to 'OIWWC'
+2023-02-17 13:29 [START] Logging Started.
+2023-02-17 13:29 [SET_PASSKEY] Password set to: <bound method Driver.handle_user_input_choices of <__main__.Driver object at 0x000002384097EA60>>
+2023-02-17 13:31 [ENCRYPT] Encrypted '<bound method Driver.handle_user_input_choices of <__main__.Driver object at 0x000002384097EA60>>' to 'QOOAMSMKUYAOSMGUCCUUOAMMSIUIAWUUICMQAYIQAOCQUWMOWMQIIKMCMIIOGUCCUUMOOEUQYMMYMSGSSSSSWYIASKGIAESUU'
+2023-02-17 13:36 [START] Logging Started.
+2023-02-17 13:36 [SET_PASSKEY] Password set to: <bound method Driver.handle_user_input_choices of <__main__.Driver object at 0x000002087C65EA90>>
+2023-02-17 13:37 [START] Logging Started.
+2023-02-17 13:37 [SET_PASSKEY] Password set to: HELLO
+2023-02-17 13:38 [ENCRYPT] Encrypted 'HELLO' to 'OIWWC'
+2023-02-17 13:40 [START] Logging Started.
+2023-02-17 13:40 [SET_PASSKEY] Password set to: HELLO
+2023-02-17 13:40 [ENCRYPT] Encrypted 'HELLO' to 'OIWWC'
+2023-02-17 13:42 [START] Logging Started.
+2023-02-17 13:43 [SET_PASSKEY] Password set to: HELLO
+2023-02-17 13:43 [ENCRYPT] Encrypted 'HELLO' to 'OIWWC'
+2023-02-17 13:43 [DECRYPT] String 'OIWWC' decrypted to 'HELLO'
+2023-02-17 13:45 [ENCRYPT] Encrypted 'HELLO' to 'OIWWC'
+2023-02-17 13:45 [ENCRYPT] Encrypted 'OIWWC' to 'VMHHQ'
+2023-02-17 13:46 [DECRYPT] String 'VMHHQ' decrypted to 'OIWWC'
+2023-02-17 13:46 [STOP] Logging Stopped.
+2023-02-17 13:46 [EXIT] Driver program exited.
+2023-02-17 13:49 [START] Logging Started.
+2023-02-17 13:49 [STOP] Logging Stopped.
+2023-02-17 13:49 [EXIT] Driver program exited.
+2023-02-17 13:49 [START] Logging Started.
+2023-02-17 13:49 [START] Logging Started.
+2023-02-17 13:49 [STOP] Logging Stopped.
+2023-02-17 13:49 [EXIT] Driver program exited.
+2023-02-17 13:54 [START] Logging Started.
+2023-02-17 13:54 [STOP] Logging Stopped.
+2023-02-17 13:54 [EXIT] Driver program exited.
+2023-02-17 14:11 [START] Logging Started.
+2023-02-17 14:11 [STOP] Logging Stopped.
+2023-02-17 14:28 [START] Logging Started.
+2023-02-17 14:28 [STOP] Logging Stopped.
+2023-02-17 14:46 [START] Logging Started.
+2023-02-17 14:46 [STOP] Logging Stopped.
+2023-02-17 14:48 [START] Logging Started.
+2023-02-17 14:48 [STOP] Logging Stopped.
+2023-02-17 14:56 [START] Logging Started.
+2023-02-17 14:56 [STOP] Logging Stopped.
+2023-02-17 15:02 [START] Logging Started.
+2023-02-17 15:02 [STOP] Logging Stopped.
+2023-02-17 15:06 [START] Logging Started.
+2023-02-17 15:08 [ENCRYPT] Encrypted 'HELLO' to 'No passkey set'
+2023-02-17 15:08 [SET_PASSKEY] Password set to: HELLO
+2023-02-17 15:08 [ENCRYPT] Encrypted 'No passkey set' to 'UYEGUFCBVSACVK'
+2023-02-17 15:08 [DECRYPT] String 'No passkey set' decrypted to 'ERROR Invalid message'
