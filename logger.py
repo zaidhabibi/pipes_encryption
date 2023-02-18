@@ -61,10 +61,7 @@ class Logger:
         # Log "STOP Logging Stopped."
         self.log_file.write(time.strftime(DATE_TIME_FORMAT) + ' [STOP] Logging Stopped.\n')
         sys.stdout.flush()  # flush any remaining output before redirecting
-        sys.stdout = open(os.devnull, 'w') # redirect stdout to os.devnull
         self.log_file.close() # Close the log file
-        sys.stdout = sys.__stdout__ # restore stdout
-
       
 
     # Retrieve the keep_running variable to determine whether or not to keep running the program

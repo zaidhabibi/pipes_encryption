@@ -126,6 +126,8 @@ class Driver:
         # Kill the processes before exiting
         self.logger_process.kill()
         self.encryption_process.kill()
+
+        print("Quitting...")
         # exit the program
         exit()
 

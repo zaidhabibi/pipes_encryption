@@ -137,3 +137,9 @@
 2023-02-17 15:08 [SET_PASSKEY] Password set to: HELLO
 2023-02-17 15:08 [ENCRYPT] Encrypted 'No passkey set' to 'UYEGUFCBVSACVK'
 2023-02-17 15:08 [DECRYPT] String 'No passkey set' decrypted to 'ERROR Invalid message'
+2023-02-17 19:01 [START] Logging Started.
+2023-02-17 19:02 [SET_PASSKEY] Password set to: CAESAR 
+2023-02-17 19:02 [ENCRYPT] Encrypted 'ZAID' to 'BAMV' 
+2023-02-17 19:02 [DECRYPT] String 'ZAID' decrypted to 'XAEL' 
+2023-02-17 19:02 [DECRYPT] String 'BAMV' decrypted to 'ZAID' 
+2023-02-17 19:02 [STOP] Logging Stopped.
