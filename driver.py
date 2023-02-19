@@ -1,3 +1,14 @@
+"""
+Author: @author Zaid Habibi
+Professor: Elmer Salazar
+Class: CS 4348 Operating System Concepts
+Description:
+The Driver class serves as an interface for encrypting and decrypting strings using encryption.py 
+and logger.py. The class uses the subprocess module to communicate with these external programs
+via pipes.
+
+"""
+
 import subprocess
 import sys
 

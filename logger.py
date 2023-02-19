@@ -1,3 +1,18 @@
+"""
+Author: @author Zaid Habibi
+Professor: Elmer Salazar
+Class: CS 4348 Operating System Concepts
+Description: 
+The Logger class provides users with a simple and efficient way to log messages to a file.
+The class contains three main methods/functionalities:
+    start() initiates the logging session
+    log() logs a single message
+    stop() stops the session and closes the file
+Each log message contains the date and time followed by [ACTION] MESSAGE
+The actions are typically: ENCRYPT, DECRYPT, STOP, QUIT, PASSKEY
+
+
+"""
 import sys
 import time
 import os
@@ -5,29 +20,16 @@ import os
 # Define a constant for the date/time format
 DATE_TIME_FORMAT = '%Y-%m-%d %H:%M'
 
-"""
-The Logger class provides a simple way to log messages to a file. 
-It takes the name of a log file as a parameter and creates the file if it does not already exist. 
-The class provides three main methods: 
-    start() to log the start of the logging session, 
-    log() to log a single message, 
-    stop() to log the end of the session and close the log file. 
-The log messages are formatted to include the current date and time, 
-the action being taken (e.g. "INFO", "ERROR"), and the message itself.
-
-"""
 
 class Logger:
     def __init__(self, log_file_name):
         self.log_file_name = log_file_name
 
-        # Check if the log file exists, create it if it doesn't
+        # Check if the log file exists and create it if it doesn't
         if not os.path.exists(log_file_name):
-            open(log_file_name, 'w').close() # Create a new log file if it doesn't exist
+            open(log_file_name, 'w').close() # Create a new log file, if it doesn't exist
         
-    
         self.log_file = open(log_file_name, 'a')
-
         self.keep_running = True
 
     # Log that the logger is starting up.
@@ -36,6 +38,7 @@ class Logger:
         self.log_file.write(time.strftime(DATE_TIME_FORMAT) + ' [START] Logging Started.\n')
 
     # Log messages from standard input
+    
     def log(self, log_message):
         if not log_message: # Check for empty input
             return

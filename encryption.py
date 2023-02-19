@@ -1,3 +1,12 @@
+"""
+Author: @author Zaid Habibi
+Professor: Elmer Salazar
+Class: CS 4348 Operating System Concepts
+Description:
+The Encryption class is used to encrypt and decrypt messages using the Vigenere Cypher. 
+The cypher cannot handle non-alphabetical inputs and spaces.
+
+"""
 class Encryption:
     def __init__(self):
         self.passkey = ""
