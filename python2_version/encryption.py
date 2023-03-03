@@ -22,17 +22,17 @@ class Encryption:
 
         elif command == 'ENCRYPT':
             if not self.passkey:
-                print('ERROR No passkey set')
+                print ('ERROR No passkey set')
             else:
                 encrypted = self.encrypt(arg, self.passkey)
-                print(f'RESULT {encrypted}')
+                print ('RESULT {}'.format(encrypted))
 
         elif command == 'DECRYPT':
             if not self.passkey:
-                print('ERROR No passkey set')
+                print ('ERROR No passkey set')
             else:
                 decrypted = self.decrypt(arg)
-                print(f'RESULT {decrypted}')
+                print ('RESULT {}'.format(decrypted))
 
         elif command == 'QUIT':
             print('RESULT')
@@ -40,7 +40,8 @@ class Encryption:
             
 
         else:
-            print(f'ERROR Invalid command: {command}')
+            print ('ERROR Invalid command: {}'.format(command))
+
 
     def encrypt(self, message, key):
        
@@ -61,15 +62,16 @@ class Encryption:
         
         return ciphertext
 
+
     def decrypt(self, message):
-        
+
         # Split the message into the key and the encrypted text
         parts = message.split(' ', 1)
         if len(parts) != 2:
             return "ERROR Invalid message"
         key = parts[0]
         encrypted_text = parts[1]
-        
+
         # Implement Vigenere cipher decryption algorithm
         decrypted_text = []
         key_index = 0
@@ -88,6 +90,7 @@ class Encryption:
 
         decrypted_text = "".join(decrypted_text)
         return decrypted_text
+
 
 
 
