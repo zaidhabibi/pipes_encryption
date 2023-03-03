@@ -10,6 +10,8 @@ The class contains three main methods/functionalities:
     stop() stops the session and closes the file
 Each log message contains the date and time followed by [ACTION] MESSAGE
 The actions are typically: ENCRYPT, DECRYPT, STOP, QUIT, PASSKEY
+
+
 """
 import sys
 import time
@@ -50,11 +52,11 @@ class Logger:
             # Extract the action and message from the log message
             action, message = log_message.split(None, 1)
         except ValueError:
-            print(f"Invalid log message: {log_message}")
+            print ("Invalid log message: %s") % log_message
             return
 
-        
-        self.log_file.write(time.strftime(DATE_TIME_FORMAT) + f' [{action}] {message}\n')
+        self.log_file.write(time.strftime(DATE_TIME_FORMAT) + ' [%s] %s\n' % (action, message))
+
 
     # Log that the logger is shutting down.
     def stop(self):
@@ -72,6 +74,7 @@ class Logger:
         else:
             return True
     
+
 if __name__ == '__main__':
     try:
         log_file_name = sys.argv[1] # Get the log file name from the command line argument
@@ -85,7 +88,7 @@ if __name__ == '__main__':
             logger.log(log_message)
 
     except IndexError:
-        print("Please provide the name of the log file as a command-line argument.")
+        print ("Please provide the name of the log file as a command-line argument.")
 
     except OSError as e:
-        print(f"Error opening log file: {e}")
+        print("Error opening log file: {}".format(e))
