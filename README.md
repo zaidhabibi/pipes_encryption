@@ -1,5 +1,6 @@
 # pipes_encryption
 A project to learn about pipes and encryption
+Make sure you're running this program in the latest version in Python
 Here is the command to run: 
 > python driver.py logger.txt
 > 
